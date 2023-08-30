@@ -1,0 +1,7 @@
+sample:
+  description: Application to test memory allocation from SPIRAM
+  name: esp32_zephyr
+tests:
+  sample.board.esp32:
+    platform_allow: esp32
+    tags: esp32

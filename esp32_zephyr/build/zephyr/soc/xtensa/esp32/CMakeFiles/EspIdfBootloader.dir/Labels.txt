@@ -1,0 +1,13 @@
+# Target labels
+ EspIdfBootloader
+# Source files and their labels
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspIdfBootloader
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspIdfBootloader.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspIdfBootloader-complete.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-build.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-configure.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-download.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-install.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-mkdir.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-patch.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-update.rule

@@ -1,0 +1,13 @@
+# Target labels
+ EspPartitionTable
+# Source files and their labels
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspPartitionTable
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspPartitionTable.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspPartitionTable-complete.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-build.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-configure.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-download.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-install.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-mkdir.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-patch.rule
+C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-update.rule

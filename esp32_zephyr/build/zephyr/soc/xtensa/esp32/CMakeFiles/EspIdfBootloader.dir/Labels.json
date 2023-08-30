@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspIdfBootloader"
+		},
+		{
+			"file" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspIdfBootloader.rule"
+		},
+		{
+			"file" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/soc/xtensa/esp32/CMakeFiles/EspIdfBootloader-complete.rule"
+		},
+		{
+			"file" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-build.rule"
+		},
+		{
+			"file" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-configure.rule"
+		},
+		{
+			"file" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-download.rule"
+		},
+		{
+			"file" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-install.rule"
+		},
+		{
+			"file" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-patch.rule"
+		},
+		{
+			"file" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EspIdfBootloader"
+		],
+		"name" : "EspIdfBootloader"
+	}
+}

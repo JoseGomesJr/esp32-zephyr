@@ -1,0 +1,4 @@
+source "C:/Users/josej/zephyrproject/modules/hal/espressif/components/bootloader/Kconfig.projbuild"
+source "C:/Users/josej/zephyrproject/modules/hal/espressif/components/esp_rom/Kconfig.projbuild"
+source "C:/Users/josej/zephyrproject/modules/hal/espressif/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/josej/zephyrproject/modules/hal/espressif/components/partition_table/Kconfig.projbuild"

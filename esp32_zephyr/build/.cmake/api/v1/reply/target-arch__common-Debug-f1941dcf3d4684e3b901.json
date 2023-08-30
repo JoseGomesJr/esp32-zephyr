@@ -1,0 +1,664 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "zephyr/arch/common/libarch__common.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"zephyr_library_named",
+			"zephyr_library",
+			"target_link_libraries",
+			"zephyr_library_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"include_directories",
+			"target_sources",
+			"zephyr_library_sources",
+			"zephyr_library_sources_ifdef"
+		],
+		"files" : 
+		[
+			"C:/Users/josej/zephyrproject/zephyr/cmake/modules/extensions.cmake",
+			"C:/Users/josej/zephyrproject/zephyr/arch/common/CMakeLists.txt",
+			"C:/Users/josej/zephyrproject/zephyr/CMakeLists.txt",
+			"C:/Users/josej/zephyrproject/zephyr/arch/xtensa/core/CMakeLists.txt",
+			"C:/Users/josej/zephyrproject/zephyr/arch/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 394,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 420,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 485,
+				"parent" : 4
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 847,
+				"parent" : 6
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 56,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 797,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 424,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 3,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 5,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 1645,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 477,
+				"parent" : 16
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Os"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/include/generated/autoconf.h"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-ffreestanding"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-gdwarf-4"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "--sysroot=C:/Users/josej/zephyr-sdk-0.16.0/xtensa-espressif_esp32_zephyr-elf/xtensa-espressif_esp32_zephyr-elf"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-imacros"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "C:/Users/josej/zephyrproject/zephyr/include/zephyr/toolchain/zephyr_stdint.h"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wformat"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-format-zero-length"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-pointer-sign"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wexpansion-to-defined"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-unused-but-set-variable"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=implicit-int"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-pic"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-pie"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-asynchronous-unwind-tables"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-reorder-functions"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "--param=min-pagesize=0"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fno-defer-pop"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fmacro-prefix-map=C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr=CMAKE_SOURCE_DIR"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fmacro-prefix-map=C:/Users/josej/zephyrproject/zephyr=ZEPHYR_BASE"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fmacro-prefix-map=C:/Users/josej/zephyrproject=WEST_TOPDIR"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-mlongcalls"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wno-maybe-uninitialized"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-std=c99"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "CONFIG_BT_ENABLED"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CONFIG_SPI_FLASH_ROM_DRIVER_PATCH"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CONFIG_SPI_FLASH_USE_LEGACY_IMPL"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ESP_PLATFORM"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "KERNEL"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__ZEPHYR_SUPERVISOR__"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "__ZEPHYR__=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/josej/zephyrproject/zephyr/kernel/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/Users/josej/zephyrproject/zephyr/arch/xtensa/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/zephyr/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/Documents/esp32-zephyr/esp32_zephyr/build/zephyr/include/generated"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/zephyr/soc/xtensa/esp32"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/zephyr/soc/xtensa/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/zephyr/subsys/bluetooth"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/zephyr/subsys/settings/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/include/bt"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/include/crypto"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../esp_shared/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../esp_shared/include/wifi"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../esp_shared/components/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/hal/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/hal/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/hal/platform_port/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_hw_support/include/soc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_hw_support/port/esp32"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_hw_support/port/esp32/private_include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_hw_support/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_common/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_pm/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_rom/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_rom/include/esp32/rom"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_rom/esp32/ld"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/xtensa/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/include/soc"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/soc/src/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/driver/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/driver/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_phy/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_phy/include/esp32"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_phy/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_wifi/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/efuse/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/efuse/private_include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/efuse/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/efuse/esp32/private_include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_system/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_system/port/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_system/port/public_compat"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_wifi/esp32/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_timer/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_timer/private_include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_netif/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/esp_event/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/log/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/wpa_supplicant/esp_supplicant/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/wpa_supplicant/esp_supplicant/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/wpa_supplicant/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/wpa_supplicant/include/esp_supplicant"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/wpa_supplicant/port/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/wpa_supplicant/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/wpa_supplicant/src/crypto"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/wpa_supplicant/src/utils"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/wpa_supplicant/src/eap_peer"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/spi_flash/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/spi_flash/include/spi_flash"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/spi_flash/private_include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/bootloader_support/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/bootloader_support/include_bootloader"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/heap/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/hal/espressif/zephyr/esp32/../../components/mbedtls/port/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/josej/zephyrproject/modules/crypto/tinycrypt/lib/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/josej/zephyrproject/zephyr/lib/libc/minimal/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "isr_tables::@0b0b0cfd7a24e8ecfe11"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "zephyr_generated_headers::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "zsr_h::@173a54fc6b69ab618284"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "driver_validation_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "kobj_types_h_target::@d36e55b69c1b90fb26b2"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "syscall_list_h_target::@d36e55b69c1b90fb26b2"
+		}
+	],
+	"id" : "arch__common::@0b0b0cfd7a24e8ecfe11",
+	"name" : "arch__common",
+	"nameOnDisk" : "libarch__common.a",
+	"paths" : 
+	{
+		"build" : "zephyr/arch/common",
+		"source" : "C:/Users/josej/zephyrproject/zephyr/arch/common"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/josej/zephyrproject/zephyr/arch/common/sw_isr_common.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

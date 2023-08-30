@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\josej\Documents\esp32-zephyr\spiram_test Select CMakeLists.txt

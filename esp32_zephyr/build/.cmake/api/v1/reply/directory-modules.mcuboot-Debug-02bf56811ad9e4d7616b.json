@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/mcuboot",
+		"source" : "C:/Users/josej/zephyrproject/bootloader/mcuboot/boot/bootutil/zephyr"
+	}
+}
